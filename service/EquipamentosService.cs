@@ -1,32 +1,38 @@
 using EquipamentosApi.Models;
+using EquipamentosApi.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace EquipamentosApi.Services
 {
     public class EquipamentoService
     {
-        private static List<Equipamento> equipamentos = new()
+        private readonly AppDbContext _context;
+
+        public EquipamentoService(AppDbContext context)
         {
-            new Equipamento { Id = 1, Nome = "Bicicleta Ergométrica", Tipo = "Cardio", Marca = "Life", Modelo = "X100", DataAquisicao = DateTime.Now.AddYears(-2), Status = "ativo", Descricao = "Boa para iniciantes" },
-            new Equipamento { Id = 2, Nome = "Supino Reto", Tipo = "Musculação", Marca = "StrongFit", Modelo = "SR300", DataAquisicao = DateTime.Now.AddYears(-1), Status = "ativo", Descricao = "Modelo robusto" }
-            // Adicione até 10
-        };
+            _context = context;
+        }
 
-        public List<Equipamento> GetAll() => equipamentos;
+        public List<Equipamento> GetAll() =>
+            _context.Equipamentos.ToList();
 
-        public Equipamento? GetById(int id) => equipamentos.FirstOrDefault(e => e.Id == id);
+        public Equipamento? GetById(int id) =>
+            _context.Equipamentos.Find(id);
 
-        public void Add(Equipamento e)
+        public void Add(Equipamento equipamento)
         {
-            e.Id = equipamentos.Max(x => x.Id) + 1;
-            equipamentos.Add(e);
+            _context.Equipamentos.Add(equipamento);
+            _context.SaveChanges();
         }
 
         public bool Delete(int id)
         {
-            var equipamento = GetById(id);
-            if (equipamento != null)
-                return equipamentos.Remove(equipamento);
-            return false;
+            var eq = _context.Equipamentos.Find(id);
+            if (eq == null) return false;
+
+            _context.Equipamentos.Remove(eq);
+            _context.SaveChanges();
+            return true;
         }
     }
 }
