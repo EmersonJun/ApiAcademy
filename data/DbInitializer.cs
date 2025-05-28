@@ -13,19 +13,18 @@ namespace EquipamentosApi.Data
             // Cria uma lista de 10 equipamentos
             var equipamentos = new List<Equipamento>
             {
-                new Equipamento { Nome = "Notebook A", Tipo = "Computador", Marca = "Dell", Modelo = "Inspiron 15", DataAquisicao = DateTime.Parse("2021-03-15"), Status = "Em uso", Descricao = "Notebook de uso geral" },
-                new Equipamento { Nome = "Projetor Epson", Tipo = "Projetor", Marca = "Epson", Modelo = "X39", DataAquisicao = DateTime.Parse("2020-11-02"), Status = "Disponível", Descricao = "Projetor de sala de reuniões" },
-                new Equipamento { Nome = "Impressora Laser", Tipo = "Impressora", Marca = "HP", Modelo = "M404", DataAquisicao = DateTime.Parse("2019-09-20"), Status = "Em uso", Descricao = "Impressora da recepção" },
-                new Equipamento { Nome = "Servidor Dell", Tipo = "Servidor", Marca = "Dell", Modelo = "PowerEdge T40", DataAquisicao = DateTime.Parse("2022-05-01"), Status = "Em uso", Descricao = "Servidor principal" },
-                new Equipamento { Nome = "Monitor LG", Tipo = "Monitor", Marca = "LG", Modelo = "24MK430", DataAquisicao = DateTime.Parse("2021-07-12"), Status = "Disponível", Descricao = "Monitor extra" },
-                new Equipamento { Nome = "Mouse Logitech", Tipo = "Periférico", Marca = "Logitech", Modelo = "M185", DataAquisicao = DateTime.Parse("2023-01-18"), Status = "Em uso", Descricao = "Mouse sem fio" },
-                new Equipamento { Nome = "Teclado ABNT2", Tipo = "Periférico", Marca = "Multilaser", Modelo = "TC195", DataAquisicao = DateTime.Parse("2023-01-18"), Status = "Em uso", Descricao = "Teclado padrão" },
-                new Equipamento { Nome = "Roteador TP-Link", Tipo = "Rede", Marca = "TP-Link", Modelo = "Archer C6", DataAquisicao = DateTime.Parse("2022-02-22"), Status = "Em uso", Descricao = "Roteador de escritório" },
-                new Equipamento { Nome = "Cabo HDMI", Tipo = "Acessório", Marca = "Pix", Modelo = "2m", DataAquisicao = DateTime.Parse("2023-05-05"), Status = "Disponível", Descricao = "Cabo para projeção" },
-                new Equipamento { Nome = "Switch de Rede", Tipo = "Rede", Marca = "Cisco", Modelo = "SG110-16", DataAquisicao = DateTime.Parse("2022-09-09"), Status = "Em uso", Descricao = "Switch principal" }
+                new Equipamento { Nome = "Esteira Elétrica", Tipo = "Cardio", Marca = "Movement", Modelo = "RT250", DataAquisicao = DateTime.Parse("2021-01-15"), Status = "Em uso", Descricao = "Esteira profissional para corrida" },
+                new Equipamento { Nome = "Bicicleta Ergométrica", Tipo = "Cardio", Marca = "Kikos", Modelo = "KR9.1", DataAquisicao = DateTime.Parse("2020-08-10"), Status = "Disponível", Descricao = "Bicicleta vertical com monitor" },
+                new Equipamento { Nome = "Leg Press", Tipo = "Musculação", Marca = "Life Fitness", Modelo = "Signature", DataAquisicao = DateTime.Parse("2019-04-22"), Status = "Em uso", Descricao = "Aparelho de treino de pernas" },
+                new Equipamento { Nome = "Banco Supino", Tipo = "Musculação", Marca = "Body Solid", Modelo = "GFID31", DataAquisicao = DateTime.Parse("2021-11-12"), Status = "Disponível", Descricao = "Banco ajustável para supino" },
+                new Equipamento { Nome = "Remo Indoor", Tipo = "Cardio", Marca = "Concept2", Modelo = "Model D", DataAquisicao = DateTime.Parse("2022-06-01"), Status = "Em uso", Descricao = "Equipamento de remo para treino completo" },
+                new Equipamento { Nome = "Halter 10kg", Tipo = "Musculação", Marca = "Nautilus", Modelo = "Dumbbell10", DataAquisicao = DateTime.Parse("2023-02-18"), Status = "Em uso", Descricao = "Par de halteres de 10kg" },
+                new Equipamento { Nome = "Barra Olímpica", Tipo = "Musculação", Marca = "Rogue", Modelo = "Olympic 20kg", DataAquisicao = DateTime.Parse("2023-03-05"), Status = "Em uso", Descricao = "Barra olímpica para levantamento" },
+                new Equipamento { Nome = "Corda Naval", Tipo = "Funcional", Marca = "ProAction", Modelo = "Battle Rope", DataAquisicao = DateTime.Parse("2022-10-22"), Status = "Disponível", Descricao = "Corda para exercícios funcionais" },
+                new Equipamento { Nome = "Bola Bosu", Tipo = "Equilíbrio", Marca = "Bosu", Modelo = "Pro Balance", DataAquisicao = DateTime.Parse("2021-09-19"), Status = "Disponível", Descricao = "Bola para treino de equilíbrio" },
+                new Equipamento { Nome = "Elíptico", Tipo = "Cardio", Marca = "Johnson", Modelo = "Horizon EX-59", DataAquisicao = DateTime.Parse("2020-12-11"), Status = "Em uso", Descricao = "Elíptico com monitor de desempenho" }
             };
-
-            // Adiciona ao banco
+                        // Adiciona ao banco
             context.Equipamentos.AddRange(equipamentos);
             context.SaveChanges();
         }
