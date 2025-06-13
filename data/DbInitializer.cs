@@ -5,12 +5,10 @@ namespace EquipamentosApi.Data
     public static class DbInitializer
     {
         public static void Initialize(AppDbContext context)
-        {
-            // Verifica se já existem registros
+        {  
             if (context.Equipamentos.Any())
                 return;
 
-            // Cria uma lista de 10 equipamentos
             var equipamentos = new List<Equipamento>
             {
                 new Equipamento { Nome = "Esteira Elétrica", Tipo = "Cardio", Marca = "Movement", Modelo = "RT250", DataAquisicao = DateTime.Parse("2021-01-15"), Status = "Em uso", Descricao = "Esteira profissional para corrida" },
@@ -24,7 +22,7 @@ namespace EquipamentosApi.Data
                 new Equipamento { Nome = "Bola Bosu", Tipo = "Equilíbrio", Marca = "Bosu", Modelo = "Pro Balance", DataAquisicao = DateTime.Parse("2021-09-19"), Status = "Disponível", Descricao = "Bola para treino de equilíbrio" },
                 new Equipamento { Nome = "Elíptico", Tipo = "Cardio", Marca = "Johnson", Modelo = "Horizon EX-59", DataAquisicao = DateTime.Parse("2020-12-11"), Status = "Em uso", Descricao = "Elíptico com monitor de desempenho" }
             };
-                        // Adiciona ao banco
+
             context.Equipamentos.AddRange(equipamentos);
             context.SaveChanges();
         }

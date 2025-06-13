@@ -1,12 +1,1042 @@
 {
   "Version": 1,
-  "Hash": "3ctfM6icmaoFQFUMBnYl+Sr37UQyiTDjX4sNPGtWQf4=",
+  "Hash": "ie9BPLEA8kAoi9CNEBbc3MyayN1/EujZd4TUUQ/uMPg=",
   "Source": "ApiAcademy",
   "BasePath": "_content/ApiAcademy",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "ApiAcademy\\wwwroot",
+      "Source": "ApiAcademy",
+      "ContentRoot": "C:\\Users\\eminh\\OneDrive\\Documentos\\vscode\\aula-de-C#\\EmersonJunior.positivo28\\AtividadeApi\\ApiAcademy\\wwwroot\\",
+      "BasePath": "_content/ApiAcademy",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\eminh\\OneDrive\\Documentos\\vscode\\aula-de-C#\\EmersonJunior.positivo28\\AtividadeApi\\ApiAcademy\\obj\\Debug\\net9.0\\compressed\\34s55druag-ae3fkp9zti.gz",
+      "SourceId": "ApiAcademy",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\eminh\\OneDrive\\Documentos\\vscode\\aula-de-C#\\EmersonJunior.positivo28\\AtividadeApi\\ApiAcademy\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/ApiAcademy",
+      "RelativePath": "script#[.{fingerprint=ae3fkp9zti}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\eminh\\OneDrive\\Documentos\\vscode\\aula-de-C#\\EmersonJunior.positivo28\\AtividadeApi\\ApiAcademy\\wwwroot\\script.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "l18jcofnq9",
+      "Integrity": "h7S3lv/F3gfETAwqjLd/j44bsCB7mjdYM8txN2z6X2Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\eminh\\OneDrive\\Documentos\\vscode\\aula-de-C#\\EmersonJunior.positivo28\\AtividadeApi\\ApiAcademy\\wwwroot\\script.js"
+    },
+    {
+      "Identity": "C:\\Users\\eminh\\OneDrive\\Documentos\\vscode\\aula-de-C#\\EmersonJunior.positivo28\\AtividadeApi\\ApiAcademy\\obj\\Debug\\net9.0\\compressed\\gu7gorr3fk-jv1cutk5cj.gz",
+      "SourceId": "ApiAcademy",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\eminh\\OneDrive\\Documentos\\vscode\\aula-de-C#\\EmersonJunior.positivo28\\AtividadeApi\\ApiAcademy\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/ApiAcademy",
+      "RelativePath": "index#[.{fingerprint=jv1cutk5cj}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\eminh\\OneDrive\\Documentos\\vscode\\aula-de-C#\\EmersonJunior.positivo28\\AtividadeApi\\ApiAcademy\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "q46gskowwx",
+      "Integrity": "9pBMMVyKnqrG0hewcvg2Mo5VVpmv+pDcGVO4PJrHz8E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\eminh\\OneDrive\\Documentos\\vscode\\aula-de-C#\\EmersonJunior.positivo28\\AtividadeApi\\ApiAcademy\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\eminh\\OneDrive\\Documentos\\vscode\\aula-de-C#\\EmersonJunior.positivo28\\AtividadeApi\\ApiAcademy\\obj\\Debug\\net9.0\\compressed\\zezlejypsr-v8qkahrzc9.gz",
+      "SourceId": "ApiAcademy",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\eminh\\OneDrive\\Documentos\\vscode\\aula-de-C#\\EmersonJunior.positivo28\\AtividadeApi\\ApiAcademy\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/ApiAcademy",
+      "RelativePath": "style#[.{fingerprint=v8qkahrzc9}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\eminh\\OneDrive\\Documentos\\vscode\\aula-de-C#\\EmersonJunior.positivo28\\AtividadeApi\\ApiAcademy\\wwwroot\\style.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "xb2dpvqzor",
+      "Integrity": "DUKS7XX7TUAlatF3w0r3FxcXyqh1Uie9DQz/C/1bjEQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\eminh\\OneDrive\\Documentos\\vscode\\aula-de-C#\\EmersonJunior.positivo28\\AtividadeApi\\ApiAcademy\\wwwroot\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\eminh\\OneDrive\\Documentos\\vscode\\aula-de-C#\\EmersonJunior.positivo28\\AtividadeApi\\ApiAcademy\\wwwroot\\index.html",
+      "SourceId": "ApiAcademy",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\eminh\\OneDrive\\Documentos\\vscode\\aula-de-C#\\EmersonJunior.positivo28\\AtividadeApi\\ApiAcademy\\wwwroot\\",
+      "BasePath": "_content/ApiAcademy",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jv1cutk5cj",
+      "Integrity": "gXlFcyRoDuL+xkVKiSVkR+CJ1DDuSm7QBd5rRfby/K8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\eminh\\OneDrive\\Documentos\\vscode\\aula-de-C#\\EmersonJunior.positivo28\\AtividadeApi\\ApiAcademy\\wwwroot\\script.js",
+      "SourceId": "ApiAcademy",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\eminh\\OneDrive\\Documentos\\vscode\\aula-de-C#\\EmersonJunior.positivo28\\AtividadeApi\\ApiAcademy\\wwwroot\\",
+      "BasePath": "_content/ApiAcademy",
+      "RelativePath": "script#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ae3fkp9zti",
+      "Integrity": "DlnLol73FLOcLfXl772dWEJT2X4KRSxnqU0N1T8V4+4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\script.js"
+    },
+    {
+      "Identity": "C:\\Users\\eminh\\OneDrive\\Documentos\\vscode\\aula-de-C#\\EmersonJunior.positivo28\\AtividadeApi\\ApiAcademy\\wwwroot\\style.css",
+      "SourceId": "ApiAcademy",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\eminh\\OneDrive\\Documentos\\vscode\\aula-de-C#\\EmersonJunior.positivo28\\AtividadeApi\\ApiAcademy\\wwwroot\\",
+      "BasePath": "_content/ApiAcademy",
+      "RelativePath": "style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v8qkahrzc9",
+      "Integrity": "IaCy5M3xLtmiFfI2kCkbwRgBnvKHp0h+V0mPbvq6GKk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\eminh\\OneDrive\\Documentos\\vscode\\aula-de-C#\\EmersonJunior.positivo28\\AtividadeApi\\ApiAcademy\\obj\\Debug\\net9.0\\compressed\\gu7gorr3fk-jv1cutk5cj.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001733102253"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "576"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9pBMMVyKnqrG0hewcvg2Mo5VVpmv+pDcGVO4PJrHz8E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 14:59:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gXlFcyRoDuL+xkVKiSVkR+CJ1DDuSm7QBd5rRfby/K8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gXlFcyRoDuL+xkVKiSVkR+CJ1DDuSm7QBd5rRfby/K8="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\eminh\\OneDrive\\Documentos\\vscode\\aula-de-C#\\EmersonJunior.positivo28\\AtividadeApi\\ApiAcademy\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1450"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gXlFcyRoDuL+xkVKiSVkR+CJ1DDuSm7QBd5rRfby/K8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 14:59:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gXlFcyRoDuL+xkVKiSVkR+CJ1DDuSm7QBd5rRfby/K8="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "C:\\Users\\eminh\\OneDrive\\Documentos\\vscode\\aula-de-C#\\EmersonJunior.positivo28\\AtividadeApi\\ApiAcademy\\obj\\Debug\\net9.0\\compressed\\gu7gorr3fk-jv1cutk5cj.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "576"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9pBMMVyKnqrG0hewcvg2Mo5VVpmv+pDcGVO4PJrHz8E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 14:59:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9pBMMVyKnqrG0hewcvg2Mo5VVpmv+pDcGVO4PJrHz8E="
+        }
+      ]
+    },
+    {
+      "Route": "index.jv1cutk5cj.html",
+      "AssetFile": "C:\\Users\\eminh\\OneDrive\\Documentos\\vscode\\aula-de-C#\\EmersonJunior.positivo28\\AtividadeApi\\ApiAcademy\\obj\\Debug\\net9.0\\compressed\\gu7gorr3fk-jv1cutk5cj.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001733102253"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "576"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9pBMMVyKnqrG0hewcvg2Mo5VVpmv+pDcGVO4PJrHz8E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 14:59:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gXlFcyRoDuL+xkVKiSVkR+CJ1DDuSm7QBd5rRfby/K8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jv1cutk5cj"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gXlFcyRoDuL+xkVKiSVkR+CJ1DDuSm7QBd5rRfby/K8="
+        }
+      ]
+    },
+    {
+      "Route": "index.jv1cutk5cj.html",
+      "AssetFile": "C:\\Users\\eminh\\OneDrive\\Documentos\\vscode\\aula-de-C#\\EmersonJunior.positivo28\\AtividadeApi\\ApiAcademy\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1450"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gXlFcyRoDuL+xkVKiSVkR+CJ1DDuSm7QBd5rRfby/K8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 14:59:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jv1cutk5cj"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gXlFcyRoDuL+xkVKiSVkR+CJ1DDuSm7QBd5rRfby/K8="
+        }
+      ]
+    },
+    {
+      "Route": "index.jv1cutk5cj.html.gz",
+      "AssetFile": "C:\\Users\\eminh\\OneDrive\\Documentos\\vscode\\aula-de-C#\\EmersonJunior.positivo28\\AtividadeApi\\ApiAcademy\\obj\\Debug\\net9.0\\compressed\\gu7gorr3fk-jv1cutk5cj.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "576"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9pBMMVyKnqrG0hewcvg2Mo5VVpmv+pDcGVO4PJrHz8E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 14:59:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jv1cutk5cj"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9pBMMVyKnqrG0hewcvg2Mo5VVpmv+pDcGVO4PJrHz8E="
+        }
+      ]
+    },
+    {
+      "Route": "script.ae3fkp9zti.js",
+      "AssetFile": "C:\\Users\\eminh\\OneDrive\\Documentos\\vscode\\aula-de-C#\\EmersonJunior.positivo28\\AtividadeApi\\ApiAcademy\\obj\\Debug\\net9.0\\compressed\\34s55druag-ae3fkp9zti.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001362397820"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "733"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h7S3lv/F3gfETAwqjLd/j44bsCB7mjdYM8txN2z6X2Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 14:59:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"DlnLol73FLOcLfXl772dWEJT2X4KRSxnqU0N1T8V4+4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ae3fkp9zti"
+        },
+        {
+          "Name": "label",
+          "Value": "script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DlnLol73FLOcLfXl772dWEJT2X4KRSxnqU0N1T8V4+4="
+        }
+      ]
+    },
+    {
+      "Route": "script.ae3fkp9zti.js",
+      "AssetFile": "C:\\Users\\eminh\\OneDrive\\Documentos\\vscode\\aula-de-C#\\EmersonJunior.positivo28\\AtividadeApi\\ApiAcademy\\wwwroot\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1812"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DlnLol73FLOcLfXl772dWEJT2X4KRSxnqU0N1T8V4+4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 14:59:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ae3fkp9zti"
+        },
+        {
+          "Name": "label",
+          "Value": "script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DlnLol73FLOcLfXl772dWEJT2X4KRSxnqU0N1T8V4+4="
+        }
+      ]
+    },
+    {
+      "Route": "script.ae3fkp9zti.js.gz",
+      "AssetFile": "C:\\Users\\eminh\\OneDrive\\Documentos\\vscode\\aula-de-C#\\EmersonJunior.positivo28\\AtividadeApi\\ApiAcademy\\obj\\Debug\\net9.0\\compressed\\34s55druag-ae3fkp9zti.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "733"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h7S3lv/F3gfETAwqjLd/j44bsCB7mjdYM8txN2z6X2Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 14:59:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ae3fkp9zti"
+        },
+        {
+          "Name": "label",
+          "Value": "script.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-h7S3lv/F3gfETAwqjLd/j44bsCB7mjdYM8txN2z6X2Q="
+        }
+      ]
+    },
+    {
+      "Route": "script.js",
+      "AssetFile": "C:\\Users\\eminh\\OneDrive\\Documentos\\vscode\\aula-de-C#\\EmersonJunior.positivo28\\AtividadeApi\\ApiAcademy\\obj\\Debug\\net9.0\\compressed\\34s55druag-ae3fkp9zti.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001362397820"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "733"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h7S3lv/F3gfETAwqjLd/j44bsCB7mjdYM8txN2z6X2Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 14:59:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"DlnLol73FLOcLfXl772dWEJT2X4KRSxnqU0N1T8V4+4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DlnLol73FLOcLfXl772dWEJT2X4KRSxnqU0N1T8V4+4="
+        }
+      ]
+    },
+    {
+      "Route": "script.js",
+      "AssetFile": "C:\\Users\\eminh\\OneDrive\\Documentos\\vscode\\aula-de-C#\\EmersonJunior.positivo28\\AtividadeApi\\ApiAcademy\\wwwroot\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1812"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DlnLol73FLOcLfXl772dWEJT2X4KRSxnqU0N1T8V4+4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 14:59:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DlnLol73FLOcLfXl772dWEJT2X4KRSxnqU0N1T8V4+4="
+        }
+      ]
+    },
+    {
+      "Route": "script.js.gz",
+      "AssetFile": "C:\\Users\\eminh\\OneDrive\\Documentos\\vscode\\aula-de-C#\\EmersonJunior.positivo28\\AtividadeApi\\ApiAcademy\\obj\\Debug\\net9.0\\compressed\\34s55druag-ae3fkp9zti.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "733"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h7S3lv/F3gfETAwqjLd/j44bsCB7mjdYM8txN2z6X2Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 14:59:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-h7S3lv/F3gfETAwqjLd/j44bsCB7mjdYM8txN2z6X2Q="
+        }
+      ]
+    },
+    {
+      "Route": "style.css",
+      "AssetFile": "C:\\Users\\eminh\\OneDrive\\Documentos\\vscode\\aula-de-C#\\EmersonJunior.positivo28\\AtividadeApi\\ApiAcademy\\obj\\Debug\\net9.0\\compressed\\zezlejypsr-v8qkahrzc9.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.008130081301"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "122"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DUKS7XX7TUAlatF3w0r3FxcXyqh1Uie9DQz/C/1bjEQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 14:59:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"IaCy5M3xLtmiFfI2kCkbwRgBnvKHp0h+V0mPbvq6GKk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IaCy5M3xLtmiFfI2kCkbwRgBnvKHp0h+V0mPbvq6GKk="
+        }
+      ]
+    },
+    {
+      "Route": "style.css",
+      "AssetFile": "C:\\Users\\eminh\\OneDrive\\Documentos\\vscode\\aula-de-C#\\EmersonJunior.positivo28\\AtividadeApi\\ApiAcademy\\wwwroot\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "139"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IaCy5M3xLtmiFfI2kCkbwRgBnvKHp0h+V0mPbvq6GKk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 14:59:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IaCy5M3xLtmiFfI2kCkbwRgBnvKHp0h+V0mPbvq6GKk="
+        }
+      ]
+    },
+    {
+      "Route": "style.css.gz",
+      "AssetFile": "C:\\Users\\eminh\\OneDrive\\Documentos\\vscode\\aula-de-C#\\EmersonJunior.positivo28\\AtividadeApi\\ApiAcademy\\obj\\Debug\\net9.0\\compressed\\zezlejypsr-v8qkahrzc9.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "122"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DUKS7XX7TUAlatF3w0r3FxcXyqh1Uie9DQz/C/1bjEQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 14:59:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DUKS7XX7TUAlatF3w0r3FxcXyqh1Uie9DQz/C/1bjEQ="
+        }
+      ]
+    },
+    {
+      "Route": "style.v8qkahrzc9.css",
+      "AssetFile": "C:\\Users\\eminh\\OneDrive\\Documentos\\vscode\\aula-de-C#\\EmersonJunior.positivo28\\AtividadeApi\\ApiAcademy\\obj\\Debug\\net9.0\\compressed\\zezlejypsr-v8qkahrzc9.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.008130081301"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "122"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DUKS7XX7TUAlatF3w0r3FxcXyqh1Uie9DQz/C/1bjEQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 14:59:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"IaCy5M3xLtmiFfI2kCkbwRgBnvKHp0h+V0mPbvq6GKk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v8qkahrzc9"
+        },
+        {
+          "Name": "label",
+          "Value": "style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IaCy5M3xLtmiFfI2kCkbwRgBnvKHp0h+V0mPbvq6GKk="
+        }
+      ]
+    },
+    {
+      "Route": "style.v8qkahrzc9.css",
+      "AssetFile": "C:\\Users\\eminh\\OneDrive\\Documentos\\vscode\\aula-de-C#\\EmersonJunior.positivo28\\AtividadeApi\\ApiAcademy\\wwwroot\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "139"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IaCy5M3xLtmiFfI2kCkbwRgBnvKHp0h+V0mPbvq6GKk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 14:59:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v8qkahrzc9"
+        },
+        {
+          "Name": "label",
+          "Value": "style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IaCy5M3xLtmiFfI2kCkbwRgBnvKHp0h+V0mPbvq6GKk="
+        }
+      ]
+    },
+    {
+      "Route": "style.v8qkahrzc9.css.gz",
+      "AssetFile": "C:\\Users\\eminh\\OneDrive\\Documentos\\vscode\\aula-de-C#\\EmersonJunior.positivo28\\AtividadeApi\\ApiAcademy\\obj\\Debug\\net9.0\\compressed\\zezlejypsr-v8qkahrzc9.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "122"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DUKS7XX7TUAlatF3w0r3FxcXyqh1Uie9DQz/C/1bjEQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 14:59:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v8qkahrzc9"
+        },
+        {
+          "Name": "label",
+          "Value": "style.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DUKS7XX7TUAlatF3w0r3FxcXyqh1Uie9DQz/C/1bjEQ="
+        }
+      ]
+    }
+  ]
 }

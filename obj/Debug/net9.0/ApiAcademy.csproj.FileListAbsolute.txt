@@ -156,3 +156,7 @@ C:\Users\eminh\OneDrive\Documentos\vscode\aula-de-C#\EmersonJunior.positivo28\At
 C:\Users\eminh\OneDrive\Documentos\vscode\aula-de-C#\EmersonJunior.positivo28\AtividadeApi\ApiAcademy\bin\Debug\net9.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\eminh\OneDrive\Documentos\vscode\aula-de-C#\EmersonJunior.positivo28\AtividadeApi\ApiAcademy\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\eminh\OneDrive\Documentos\vscode\aula-de-C#\EmersonJunior.positivo28\AtividadeApi\ApiAcademy\obj\Debug\net9.0\ApiAcademy.sourcelink.json
+C:\Users\eminh\OneDrive\Documentos\vscode\aula-de-C#\EmersonJunior.positivo28\AtividadeApi\ApiAcademy\bin\Debug\net9.0\ApiAcademy.staticwebassets.runtime.json
+C:\Users\eminh\OneDrive\Documentos\vscode\aula-de-C#\EmersonJunior.positivo28\AtividadeApi\ApiAcademy\obj\Debug\net9.0\compressed\gu7gorr3fk-jv1cutk5cj.gz
+C:\Users\eminh\OneDrive\Documentos\vscode\aula-de-C#\EmersonJunior.positivo28\AtividadeApi\ApiAcademy\obj\Debug\net9.0\compressed\34s55druag-ae3fkp9zti.gz
+C:\Users\eminh\OneDrive\Documentos\vscode\aula-de-C#\EmersonJunior.positivo28\AtividadeApi\ApiAcademy\obj\Debug\net9.0\compressed\zezlejypsr-v8qkahrzc9.gz
